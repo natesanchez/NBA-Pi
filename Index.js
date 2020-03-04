@@ -13,7 +13,25 @@ app.get("/", function (req, res) {
 })
 
 
+app.get("/teams", function (req, res) {
+    NBA.find({}).then(nba => {
+        res.json(nba[0].teams);
+    });
+});
 
+
+app.get("/championships/", function (req, res) {
+    NBA.find({}).then(nba => {
+        res.json(nba[0].championships);
+    });
+});
+
+
+app.get("/legends/", function (req, res) {
+    NBA.find({}).then(nba => {
+        res.json(nba[0].legends);
+    });
+});
 
 
 app.listen(3000, () => {
