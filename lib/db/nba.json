@@ -1,0 +1,586 @@
+[
+    {
+        "teams": [
+            {
+                "id": 1,
+                "abbreviation": "ATL",
+                "city": "Atlanta",
+                "conference": "East",
+                "division": "Southeast",
+                "founded": 1946,
+                "website": "https://www.nba.com/hawks/",
+                "full_name": "Atlanta Hawks",
+                "name": "Hawks",
+                "logo": "https://content.sportslogos.net/logos/6/220/full/9168_atlanta_hawks-primary-2016.png"
+            },
+            {
+                "id": 2,
+                "abbreviation": "BOS",
+                "city": "Boston",
+                "conference": "East",
+                "division": "Atlantic",
+                "founded": 1946,
+                "website": "https://www.nba.com/celtics/",
+                "full_name": "Boston Celtics",
+                "name": "Celtics",
+                "logo": "https://content.sportslogos.net/logos/6/213/full/slhg02hbef3j1ov4lsnwyol5o.png"
+            },
+            {
+                "id": 3,
+                "abbreviation": "BKN",
+                "city": "Brooklyn",
+                "conference": "East",
+                "division": "Atlantic",
+                "founded": 1967,
+                "website": "https://www.nba.com/nets/",
+                "full_name": "Brooklyn Nets",
+                "name": "Nets",
+                "logo": "https://content.sportslogos.net/logos/6/3786/full/137_brooklyn-nets-primary-2013.png"
+            },
+            {
+                "id": 4,
+                "abbreviation": "CHA",
+                "city": "Charlotte",
+                "conference": "East",
+                "division": "Southeast",
+                "founded": 1988,
+                "website": "https://www.nba.com/hornets/",
+                "full_name": "Charlotte Hornets",
+                "name": "Hornets",
+                "logo": "https://content.sportslogos.net/logos/6/5120/full/1926_charlotte__hornets_-primary-2015.png"
+            },
+            {
+                "id": 5,
+                "abbreviation": "CHI",
+                "city": "Chicago",
+                "conference": "East",
+                "division": "Central",
+                "founded": 1966,
+                "website": "https://www.nba.com/bulls/",
+                "full_name": "Chicago Bulls",
+                "name": "Bulls",
+                "logo": "https://content.sportslogos.net/logos/6/221/full/hj3gmh82w9hffmeh3fjm5h874.png"
+            },
+            {
+                "id": 6,
+                "abbreviation": "CLE",
+                "city": "Cleveland",
+                "conference": "East",
+                "division": "Central",
+                "founded": 1970,
+                "website": "https://www.nba.com/cavaliers/",
+                "full_name": "Cleveland Cavaliers",
+                "name": "Cavaliers",
+                "logo": "https://content.sportslogos.net/logos/6/222/full/6921_cleveland_cavaliers-primary-2018.png"
+            },
+            {
+                "id": 7,
+                "abbreviation": "DAL",
+                "city": "Dallas",
+                "conference": "West",
+                "division": "Southwest",
+                "founded": 1980,
+                "website": "https://www.mavs.com/",
+                "full_name": "Dallas Mavericks",
+                "name": "Mavericks",
+                "logo": "https://content.sportslogos.net/logos/6/228/full/3463_dallas_mavericks-primary-2018.png"
+            },
+            {
+                "id": 8,
+                "abbreviation": "DEN",
+                "city": "Denver",
+                "conference": "West",
+                "division": "Northwest",
+                "founded": 1967,
+                "website": "https://www.nba.com/nuggets/",
+                "full_name": "Denver Nuggets",
+                "name": "Nuggets",
+                "logo": "https://content.sportslogos.net/logos/6/229/full/8926_denver_nuggets-primary-2019.png"
+            },
+            {
+                "id": 9,
+                "abbreviation": "DET",
+                "city": "Detroit",
+                "conference": "East",
+                "division": "Central",
+                "founded": 1941,
+                "website": "https://www.nba.com/pistons/",
+                "full_name": "Detroit Pistons",
+                "name": "Pistons",
+                "logo": "https://content.sportslogos.net/logos/6/223/full/2164_detroit_pistons-primary-2018.png"
+            },
+            {
+                "id": 10,
+                "abbreviation": "GSW",
+                "city": "Golden State",
+                "conference": "West",
+                "division": "Pacific",
+                "founded": 1946,
+                "website": "https://www.nba.com/warriors/",
+                "full_name": "Golden State Warriors",
+                "name": "Warriors",
+                "logo": "https://content.sportslogos.net/logos/6/235/full/qhhir6fj8zp30f33s7sfb4yw0.png"
+            },
+            {
+                "id": 11,
+                "abbreviation": "HOU",
+                "city": "Houston",
+                "conference": "West",
+                "division": "Southwest",
+                "founded": 1967,
+                "website": "https://www.nba.com/rockets/",
+                "full_name": "Houston Rockets",
+                "name": "Rockets",
+                "logo": "https://content.sportslogos.net/logos/6/230/full/8xe4813lzybfhfl14axgzzqeq.gif"
+            },
+            {
+                "id": 12,
+                "abbreviation": "IND",
+                "city": "Indiana",
+                "conference": "East",
+                "division": "Central",
+                "founded": 1967,
+                "website": "https://www.nba.com/pacers/",
+                "full_name": "Indiana Pacers",
+                "name": "Pacers",
+                "logo": "https://content.sportslogos.net/logos/6/224/full/4812_indiana_pacers-primary-2018.png"
+            },
+            {
+                "id": 13,
+                "abbreviation": "LAC",
+                "city": "LA",
+                "conference": "West",
+                "division": "Pacific",
+                "founded": 1970,
+                "website": "https://www.nba.com/clippers/",
+                "full_name": "LA Clippers",
+                "name": "Clippers",
+                "logo": "https://content.sportslogos.net/logos/6/236/full/5462_los_angeles_clippers-primary-2016.png"
+            },
+            {
+                "id": 14,
+                "abbreviation": "LAL",
+                "city": "Los Angeles",
+                "conference": "West",
+                "division": "Pacific",
+                "founded": 1947,
+                "website": "https://www.nba.com/lakers/",
+                "full_name": "Los Angeles Lakers",
+                "name": "Lakers",
+                "logo": "https://content.sportslogos.net/logos/6/237/full/uig7aiht8jnpl1szbi57zzlsh.png"
+            },
+            {
+                "id": 15,
+                "abbreviation": "MEM",
+                "city": "Memphis",
+                "conference": "West",
+                "division": "Southwest",
+                "founded": 1995,
+                "website": "https://www.nba.com/grizzlies/",
+                "full_name": "Memphis Grizzlies",
+                "name": "Grizzlies",
+                "logo": "https://content.sportslogos.net/logos/6/231/full/4373_memphis_grizzlies-primary-2019.png"
+            },
+            {
+                "id": 16,
+                "abbreviation": "MIA",
+                "city": "Miami",
+                "conference": "East",
+                "division": "Southeast",
+                "founded": 1988,
+                "website": "https://www.nba.com/heat/",
+                "full_name": "Miami Heat",
+                "name": "Heat",
+                "logo": "https://content.sportslogos.net/logos/6/214/full/burm5gh2wvjti3xhei5h16k8e.gif"
+            },
+            {
+                "id": 17,
+                "abbreviation": "MIL",
+                "city": "Milwaukee",
+                "conference": "East",
+                "division": "Central",
+                "founded": 1968,
+                "website": "https://www.nba.com/bucks/",
+                "full_name": "Milwaukee Bucks",
+                "name": "Bucks",
+                "logo": "https://content.sportslogos.net/logos/6/225/full/8275_milwaukee_bucks-primary-2016.png"
+            },
+            {
+                "id": 18,
+                "abbreviation": "MIN",
+                "city": "Minnesota",
+                "conference": "West",
+                "division": "Northwest",
+                "founded": 1989,
+                "website": "https://www.nba.com/timberwolves/",
+                "full_name": "Minnesota Timberwolves",
+                "name": "Timberwolves",
+                "logo": "https://content.sportslogos.net/logos/6/232/full/9669_minnesota_timberwolves-primary-2018.png"
+            },
+            {
+                "id": 19,
+                "abbreviation": "NOP",
+                "city": "New Orleans",
+                "conference": "West",
+                "division": "Southwest",
+                "founded": 1988,
+                "website": "https://www.nba.com/pelicans/",
+                "full_name": "New Orleans Pelicans",
+                "name": "Pelicans",
+                "logo": "https://content.sportslogos.net/logos/6/4962/full/2681_new_orleans_pelicans-primary-2014.png"
+            },
+            {
+                "id": 20,
+                "abbreviation": "NYK",
+                "city": "New York",
+                "conference": "East",
+                "division": "Atlantic",
+                "founded": 1946,
+                "website": "https://www.nba.com/knicks/",
+                "full_name": "New York Knicks",
+                "name": "Knicks",
+                "logo": "https://content.sportslogos.net/logos/6/216/full/2nn48xofg0hms8k326cqdmuis.gif"
+            },
+            {
+                "id": 21,
+                "abbreviation": "OKC",
+                "city": "Oklahoma City",
+                "conference": "West",
+                "division": "Northwest",
+                "founded": 2008,
+                "website": "https://www.nba.com/thunder/",
+                "full_name": "Oklahoma City Thunder",
+                "name": "Thunder",
+                "logo": "https://content.sportslogos.net/logos/6/2687/full/khmovcnezy06c3nm05ccn0oj2.png"
+            },
+            {
+                "id": 22,
+                "abbreviation": "ORL",
+                "city": "Orlando",
+                "conference": "East",
+                "division": "Southeast",
+                "founded": 1989,
+                "website": "https://www.nba.com/magic/",
+                "full_name": "Orlando Magic",
+                "name": "Magic",
+                "logo": "https://content.sportslogos.net/logos/6/217/full/wd9ic7qafgfb0yxs7tem7n5g4.gif"
+            },
+            {
+                "id": 23,
+                "abbreviation": "PHI",
+                "city": "Philadelphia",
+                "conference": "East",
+                "division": "Atlantic",
+                "founded": 1946,
+                "website": "https://www.nba.com/sixers/",
+                "full_name": "Philadelphia 76ers",
+                "name": "76ers",
+                "logo": "https://content.sportslogos.net/logos/6/218/full/7034_philadelphia_76ers-primary-2016.png"
+            },
+            {
+                "id": 24,
+                "abbreviation": "PHX",
+                "city": "Phoenix",
+                "conference": "West",
+                "division": "Pacific",
+                "founded": 1968,
+                "website": "https://www.nba.com/suns/",
+                "full_name": "Phoenix Suns",
+                "name": "Suns",
+                "logo": "https://content.sportslogos.net/logos/6/238/full/4370_phoenix_suns-primary-2014.png"
+            },
+            {
+                "id": 25,
+                "abbreviation": "POR",
+                "city": "Portland",
+                "conference": "West",
+                "division": "Northwest",
+                "founded": 1970,
+                "website": "https://www.nba.com/blazers/",
+                "full_name": "Portland Trail Blazers",
+                "name": "Trail Blazers",
+                "logo": "https://content.sportslogos.net/logos/6/239/full/9725_portland_trail_blazers-primary-2018.png"
+            },
+            {
+                "id": 26,
+                "abbreviation": "SAC",
+                "city": "Sacramento",
+                "conference": "West",
+                "division": "Pacific",
+                "founded": 1923,
+                "website": "https://www.nba.com/kings/",
+                "full_name": "Sacramento Kings",
+                "name": "Kings",
+                "logo": "https://content.sportslogos.net/logos/6/240/full/4043_sacramento_kings-primary-2017.png"
+            },
+            {
+                "id": 27,
+                "abbreviation": "SAS",
+                "city": "San Antonio",
+                "conference": "West",
+                "division": "Southwest",
+                "founded": 1967,
+                "website": "https://www.nba.com/spurs/",
+                "full_name": "San Antonio Spurs",
+                "name": "Spurs",
+                "logo": "https://content.sportslogos.net/logos/6/233/full/2547_san_antonio_spurs-primary-2018.png"
+            },
+            {
+                "id": 28,
+                "abbreviation": "TOR",
+                "city": "Toronto",
+                "conference": "East",
+                "division": "Atlantic",
+                "founded": 1995,
+                "website": "https://www.nba.com/raptors/",
+                "full_name": "Toronto Raptors",
+                "name": "Raptors",
+                "logo": "https://content.sportslogos.net/logos/6/227/full/4578_toronto_raptors-primary-2016.png"
+            },
+            {
+                "id": 29,
+                "abbreviation": "UTA",
+                "city": "Utah",
+                "conference": "West",
+                "division": "Northwest",
+                "founded": 1974,
+                "website": "https://www.nba.com/jazz/",
+                "full_name": "Utah Jazz",
+                "name": "Jazz",
+                "logo": "https://content.sportslogos.net/logos/6/234/full/6749_utah_jazz-primary-2017.png"
+            },
+            {
+                "id": 30,
+                "abbreviation": "WAS",
+                "city": "Washington",
+                "conference": "East",
+                "division": "Southeast",
+                "founded": 1961,
+                "website": "https://www.nba.com/wizards/",
+                "full_name": "Washington Wizards",
+                "name": "Wizards",
+                "logo": "https://content.sportslogos.net/logos/6/219/full/5671_washington_wizards-primary-2016.png"
+            }
+        ],
+        "championships": [
+            {
+                "year": 2019,
+                "champion": "Toronto Raptors",
+                "runnerUp": "Golden State Warriors"
+            },
+            {
+                "year": 2018,
+                "champion": "Golden State Warriors",
+                "runnerUp": "Cleveland Cavaliers"
+            },
+            {
+                "year": 2017,
+                "champion": "Golden State Warriors",
+                "runnerUp": "Cleveland Cavaliers"
+            },
+            {
+                "year": 2016,
+                "champion": "Cleveland Cavaliers",
+                "runnerUp": "Golden State Warriors"
+            },
+            {
+                "year": 2015,
+                "champion": "Golden State Warriors",
+                "runnerUp": "Cleveland Cavaliers"
+            },
+            {
+                "year": 2014,
+                "champion": "San Antonio Spurs",
+                "runnerUp": "Miami Heat"
+            },
+            {
+                "year": 2013,
+                "champion": "Miami Heat",
+                "runnerUp": "San Antonio Spurs"
+            },
+            {
+                "year": 2012,
+                "champion": "Miami Heat",
+                "runnerUp": "Oklahoma City Thunder"
+            },
+            {
+                "year": 2011,
+                "champion": "Dallas Mavericks",
+                "runnerUp": "Miami Heat"
+            },
+            {
+                "year": 2010,
+                "champion": "Los Angeles Lakers",
+                "runnerUp": "Boston Celtics"
+            },
+            {
+                "year": 2009,
+                "champion": "Los Angeles Lakers",
+                "runnerUp": "Orlando Magic"
+            },
+            {
+                "year": 2008,
+                "champion": "Boston Celtics",
+                "runnerUp": "Los Angeles Lakers"
+            },
+            {
+                "year": 2007,
+                "champion": "San Antonio Spurs",
+                "runnerUp": "Cleveland Cavaliers"
+            },
+            {
+                "year": 2006,
+                "champion": "Miami Heat",
+                "runnerUp": "Dallas Mavericks"
+            },
+            {
+                "year": 2005,
+                "champion": "San Antonio Spurs",
+                "runnerUp": "Detroit Pistons"
+            },
+            {
+                "year": 2004,
+                "champion": "Detroit Pistons",
+                "runnerUp": "Los Angeles Lakers"
+            },
+            {
+                "year": 2003,
+                "champion": "San Antonio Spurs",
+                "runnerUp": "Brooklyn Nets"
+            },
+            {
+                "year": 2002,
+                "champion": "Los Angeles Lakers",
+                "runnerUp": "Brooklyn Nets"
+            },
+            {
+                "year": 2001,
+                "champion": "Los Angeles Lakers",
+                "runnerUp": "Philadelphia 76ers"
+            },
+            {
+                "year": 2000,
+                "champion": "Los Angeles Lakers",
+                "runnerUp": "Indiana Pacers"
+            },
+            {
+                "year": 1999,
+                "champion": "San Antonio Spurs",
+                "runnerUp": "New York Knicks"
+            },
+            {
+                "year": 1998,
+                "champion": "Chicago Bulls",
+                "runnerUp": "Utah Jazz"
+            },
+            {
+                "year": 1997,
+                "champion": "Chicago Bulls",
+                "runnerUp": "Utah Jazz"
+            },
+            {
+                "year": 1996,
+                "champion": "Chicago Bulls",
+                "runnerUp": "Seattle Supersonics"
+            },
+            {
+                "year": 1995,
+                "champion": "Houston Rockets",
+                "runnerUp": "Orlando Magic"
+            },
+            {
+                "year": 1994,
+                "champion": "Houston Rockets",
+                "runnerUp": "New York Knicks"
+            },
+            {
+                "year": 1993,
+                "champion": "Chicago Bulls",
+                "runnerUp": "Phoenix Suns"
+            },
+            {
+                "year": 1992,
+                "champion": "Chicago Bulls",
+                "runnerUp": "Portland Trail Blazers"
+            },
+            {
+                "year": 1991,
+                "champion": "Chicago Bulls",
+                "runnerUp": "Los Angeles Lakers"
+            },
+            {
+                "year": 1990,
+                "champion": "Detroit Pistons",
+                "runnerUp": "Portland Trail Blazers"
+            },
+            {
+                "year": 1989,
+                "champion": "Detroit Pistons",
+                "runnerUp": "Los Angeles Lakers"
+            },
+            {
+                "year": 1988,
+                "champion": "Los Angeles Lakers",
+                "runnerUp": "Detroit Pistons"
+            },
+            {
+                "year": 1987,
+                "champion": "Los Angeles Lakers",
+                "runnerUp": "Boston Celtics"
+            },
+            {
+                "year": 1986,
+                "champion": "Boston Celtics",
+                "runnerUp": "Houston Rockets"
+            },
+            {
+                "year": 1985,
+                "champion": "Los Angeles Lakers",
+                "runnerUp": "Boston Celtics"
+            },
+            {
+                "year": 1984,
+                "champion": "Boston Celtics",
+                "runnerUp": "Los Angeles Lakers"
+            },
+            {
+                "year": 1983,
+                "champion": "Philadelphia 76ers",
+                "runnerUp": "Los Angeles Lakers"
+            },
+            {
+                "year": 1982,
+                "champion": "Los Angeles Lakers",
+                "runnerUp": "Philadelphia 76ers"
+            },
+            {
+                "year": 1981,
+                "champion": "Boston Celtics",
+                "runnerUp": "Houston Rockets"
+            },
+            {
+                "year": 1980,
+                "champion": "Los Angeles Lakers",
+                "runnerUp": "Philadelphia 76ers"
+            }
+        ],
+        "legends": [
+            {
+                "name": "Michael Jordan",
+                "team": "Chicago Bulls"
+            },
+            {
+                "name": "Kobe Bryant",
+                "team": "Los Angeles Lakers"
+            },
+            {
+                "name": "Charles Barkley",
+                "team": "Philadelphia 76ers"
+            },
+            {
+                "name": "Wilt Chamberlain",
+                "team": "Los Angeles Lakers"
+            }
+        ]
+    }
+]
