@@ -4,16 +4,19 @@ const parser = require("body-parser");
 const Team = require("./lib/models/Team")
 const Champ = require("./lib/models/Champ")
 const Legend = require("./lib/models/Legend")
+const Player = require("./lib/models/Player")
 
 app.use(parser.json());
 
 
 app.get("/", (req, res) => {
     res.json({
-        Message: "Welcome to NBA-API",
+        Message: "Welcome to NBA-Pi!",
+        Documentation: "https://github.com/natesanchez/NBA-Pi",
         Teams: "http://localhost:3000/teams",
         Championships: "http://localhost:3000/championships",
-        Legends: "http://localhost:3000/legends"
+        Legends: "http://localhost:3000/legends",
+        Players: "http://localhost:3000/players"
     })
 })
 
@@ -52,6 +55,12 @@ app.get("/championships/:year", function (req, res) {
 app.get("/legends", function (req, res) {
     Legend.find({}).then(legends => {
         res.json(legends);
+    });
+});
+
+app.get("/players", function (req, res) {
+    Player.find({}).then(players => {
+        res.json(players);
     });
 });
 
