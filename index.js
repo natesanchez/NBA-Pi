@@ -13,10 +13,10 @@ app.get("/", (req, res) => {
     res.json({
         Message: "Welcome to NBA-Pi!",
         Documentation: "https://github.com/natesanchez/NBA-Pi",
-        Teams: "http://localhost:3000/teams",
-        Championships: "http://localhost:3000/championships",
-        Legends: "http://localhost:3000/legends",
-        Players: "http://localhost:3000/players"
+        Teams: "https://nba-pi.herokuapp.com/teams",
+        Championships: "https://nba-pi.herokuapp.com/championships",
+        Legends: "https://nba-pi.herokuapp.com/legends",
+        Players: "https://nba-pi.herokuapp.com/players"
     })
 })
 
