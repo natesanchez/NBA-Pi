@@ -1,6 +1,6 @@
 # NBA-PI
 
-The best API for for your NBA Basics!
+The best API for for your NBA Basics! Teams, Players, Championships, and Legends!
 
 ## Endpoints
 
