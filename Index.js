@@ -10,9 +10,10 @@ app.use(parser.json());
 
 app.get("/", (req, res) => {
     res.json({
+        Message: "Welcome to NBA-API",
         Teams: "http://localhost:3000/teams",
         Championships: "http://localhost:3000/championships",
-        Legends: "http://localhost:3000/legends",
+        Legends: "http://localhost:3000/legends"
     })
 })
 
