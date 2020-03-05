@@ -95,6 +95,14 @@ app.post("/players", function (req, res) {
 });
 
 
-app.listen(3000, () => {
-    console.log("Server Running!")
+app.set("port", process.env.PORT || 3000);
+
+
+app.listen(app.get("port"), () => {
+    console.log(`✅ PORT: ${app.get("port")} 🌟`);
 });
+
+
+// app.listen(3000, () => {
+//     console.log("Server Running!")
+// });
