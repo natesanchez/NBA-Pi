@@ -43,6 +43,7 @@ app.get("/championships", function (req, res) {
     });
 });
 
+
 app.get("/championships/:year", function (req, res) {
     let input = req.params.year
     input = input[0].toUpperCase() + input.substr(1);
@@ -58,6 +59,7 @@ app.get("/legends", function (req, res) {
     });
 });
 
+
 app.get("/players", function (req, res) {
     Player.find({}).then(players => {
         res.json(players);
@@ -65,8 +67,31 @@ app.get("/players", function (req, res) {
 });
 
 
+app.get("/players/:lastName", function (req, res) {
+    let input = req.params.lastName
+    input = input[0].toUpperCase() + input.substr(1);
+    Player.find({ lastName: input }).then(players => {
+        res.json(players);
+    });
+});
+
+
+app.get("/players/team/:teamId", function (req, res) {
+    let input = req.params.teamId
+    input = input[0].toUpperCase() + input.substr(1);
+    Player.find({ teamId: input }).then(players => {
+        res.json(players);
+    });
+});
+
+
 app.post("/legends", function (req, res) {
     Legend.create(req.body).then(legends => res.json(legends));
+});
+
+
+app.post("/players", function (req, res) {
+    Player.create(req.body).then(players => res.json(players));
 });
 
 
