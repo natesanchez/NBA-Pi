@@ -9,11 +9,11 @@ The best API for your NBA Basics! Teams, Players, Championships, and Legends!
 ```
 GET /teams
 ```
-
+Test test 
 ```
 GET /championships
 ```
-
+test test 
 ## Examples
 
 Sample result from this endpoint: http://localhost:3000/teams/bulls
@@ -53,6 +53,7 @@ Nate Sanchez
 
 ## Technologies Used
 
+- Vanilla JavaScript
 - Node.js w/Express
 - MongoDB w/Mongoose
 - Heroku
