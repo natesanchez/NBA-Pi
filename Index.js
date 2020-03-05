@@ -3,7 +3,7 @@ const app = express();
 const parser = require("body-parser");
 const Team = require("./lib/models/Team")
 const Champ = require("./lib/models/Champ")
-// const Legend = require("../models/Legend")
+const Legend = require("./lib/models/Legend")
 
 app.use(parser.json());
 
@@ -49,16 +49,16 @@ app.get("/championships/:year", function (req, res) {
 });
 
 
-// app.get("/legends", function (req, res) {
-//     NBA.find({}).then(nba => {
-//         res.json(nba[0].legends);
-//     });
-// });
+app.get("/legends", function (req, res) {
+    Legend.find({}).then(legends => {
+        res.json(legends);
+    });
+});
 
 
-// app.post("/teams", function (req, res) {
-//     Team.create(req.body).then(teams => res.json(teams));
-// });
+app.post("/legends", function (req, res) {
+    Legend.create(req.body).then(legends => res.json(legends));
+});
 
 
 app.listen(3000, () => {
