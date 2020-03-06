@@ -8,7 +8,6 @@ const Player = require("./lib/models/Player")
 
 app.use(parser.json());
 
-
 app.get("/", (req, res) => {
     res.json({
         Message: "Welcome to NBA-Pi!",
