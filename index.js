@@ -11,27 +11,27 @@ app.use(parser.json());
 
 app.use(cors());
 
-// app.get("/", (req, res) => {
-//     res.json({
-//         Message: "Welcome to NBA-Pi!",
-//         Documentation: "https://github.com/natesanchez/NBA-Pi",
-//         Teams: "https://nba-pi.herokuapp.com/teams",
-//         Championships: "https://nba-pi.herokuapp.com/championships",
-//         Legends: "https://nba-pi.herokuapp.com/legends",
-//         Players: "https://nba-pi.herokuapp.com/players"
-//     })
-// })
-
 app.get("/", (req, res) => {
     res.json({
         Message: "Welcome to NBA-Pi!",
         Documentation: "https://github.com/natesanchez/NBA-Pi",
-        Teams: "http://localhost:4000/teams",
-        Championships: "http://localhost:4000/championships",
-        Legends: "http://localhost:4000/legends",
-        Players: "http://localhost:4000/players"
+        Teams: "https://nba-pi.herokuapp.com/teams",
+        Championships: "https://nba-pi.herokuapp.com/championships",
+        Legends: "https://nba-pi.herokuapp.com/legends",
+        Players: "https://nba-pi.herokuapp.com/players"
     })
 })
+
+// app.get("/", (req, res) => {
+//     res.json({
+//         Message: "Welcome to NBA-Pi!",
+//         Documentation: "https://github.com/natesanchez/NBA-Pi",
+//         Teams: "http://localhost:4000/teams",
+//         Championships: "http://localhost:4000/championships",
+//         Legends: "http://localhost:4000/legends",
+//         Players: "http://localhost:4000/players"
+//     })
+// })
 
 
 app.get("/teams", function (req, res) {
@@ -108,16 +108,16 @@ app.post("/players", function (req, res) {
 });
 
 
-// app.set("port", process.env.PORT || 4000);
+app.set("port", process.env.PORT || 4000);
 
 
-// app.listen(app.get("port"), () => {
-//     console.log(`✅ PORT: ${app.get("port")} 🌟`);
-// });
-
-
-
-
-app.listen(4000, () => {
-    console.log("Server Running!")
+app.listen(app.get("port"), () => {
+    console.log(`✅ PORT: ${app.get("port")} 🌟`);
 });
+
+
+
+
+// app.listen(4000, () => {
+//     console.log("Server Running!")
+// });
