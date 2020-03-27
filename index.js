@@ -109,6 +109,12 @@ app.post("/users12345users", function(req, res) {
   User.create(req.body).then(users => res.json(users));
 });
 
+app.delete("/users12345users/:_id", function(req, res) {
+  User.findOneAndDelete({ _id: req.params._id }, req.body).then(users => {
+    res.json(users);
+  });
+});
+
 app.set("port", process.env.PORT || 4000);
 
 app.listen(app.get("port"), () => {
