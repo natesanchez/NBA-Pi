@@ -5,6 +5,7 @@ const Team = require("./lib/models/Team");
 const Champ = require("./lib/models/Champ");
 const Legend = require("./lib/models/Legend");
 const Player = require("./lib/models/Player");
+const User = require("./lib/models/User");
 const cors = require("cors");
 
 app.use(parser.json());
