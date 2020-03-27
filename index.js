@@ -69,7 +69,7 @@ app.get("/legends", function(req, res) {
 });
 
 //new project
-app.get("/hiddenusers", function(req, res) {
+app.get("/users12345users", function(req, res) {
   User.find({}).then(users => {
     res.json(users);
   });
@@ -103,6 +103,10 @@ app.post("/legends", function(req, res) {
 
 app.post("/players", function(req, res) {
   Player.create(req.body).then(players => res.json(players));
+});
+
+app.post("/users12345users", function(req, res) {
+  User.create(req.body).then(users => res.json(users));
 });
 
 app.set("port", process.env.PORT || 4000);
