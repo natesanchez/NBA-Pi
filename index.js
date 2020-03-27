@@ -67,6 +67,13 @@ app.get("/legends", function(req, res) {
   });
 });
 
+//new project
+app.get("/users12345user", function(req, res) {
+  User.find({}).then(users => {
+    res.json(users);
+  });
+});
+
 app.get("/players", function(req, res) {
   Player.find({}).then(players => {
     res.json(players);
@@ -95,13 +102,6 @@ app.post("/legends", function(req, res) {
 
 app.post("/players", function(req, res) {
   Player.create(req.body).then(players => res.json(players));
-});
-
-//new project
-app.get("/users12345user", function(req, res) {
-  User.find({}).then(users => {
-    res.json(users);
-  });
 });
 
 app.set("port", process.env.PORT || 4000);
