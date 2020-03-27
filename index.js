@@ -68,7 +68,7 @@ app.get("/legends", function(req, res) {
 });
 
 //new project
-app.get("/users12345user", function(req, res) {
+app.get("/hiddenusers", function(req, res) {
   User.find({}).then(users => {
     res.json(users);
   });
