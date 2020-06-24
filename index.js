@@ -105,10 +105,6 @@ app.post("/players", function (req, res) {
   Player.create(req.body).then((players) => res.json(players));
 });
 
-app.post("/users12345users", function (req, res) {
-  User.create(req.body).then((users) => res.json(users));
-});
-
 app.set("port", process.env.PORT || 4000);
 
 app.listen(app.get("port"), () => {
